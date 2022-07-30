@@ -1,0 +1,55 @@
+@media only screen and (max-width:700px) {
+    .container {
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #header {
+        display: none;
+    }
+
+    .home-content {
+        padding-top: 60px !important;
+    }
+
+    .layer p:first-child {
+        font-size: 20px
+    }
+
+    .layer div :nth-child(3) {
+        font-size: 15px
+    }
+
+    .layer h1 {
+        color: white;
+        font-size: 30px;
+    }
+
+    .layer p:first-child {
+        font-size: 20px
+    }
+
+    .navbar-nav {
+        padding-left: 20px;
+    }
+
+    #page .right {
+        width: 100% !important;
+    }
+
+    #page .left {
+        width: 100% !important;
+    }
+
+    .final-card {}
+
+    .card-collection {
+        margin-left: 50px !important;
+    }
+
+    #footer-f {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1200px) {}

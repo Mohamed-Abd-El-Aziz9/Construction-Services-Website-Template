@@ -1,0 +1,195 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    background-color: #FFCB0F;
+    height: 35px;
+}
+
+.container {}
+
+.navbar {
+    background-color: #233447 !important;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+}
+
+.navbar-nav .nav-link,
+#logo-text {
+    font-size: 13px;
+}
+
+.navbar-toggler {
+    line-height: normal !important;
+}
+
+.navbar-toggler-icon,
+.nav-link {
+    color: white !important;
+}
+
+#home {
+    background: url("../Images/banner.jpg") no-repeat center center/cover;
+    height: 100vh;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+}
+
+.layer p:first-child {
+    font-size: 30px
+}
+
+.layer h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.layer span {
+    color: #FFCB0F;
+}
+
+#buttons .btn {
+    color: #FFCB0F;
+    border: 1px solid #FFCB0F;
+    padding: 5px 20px;
+}
+
+
+/*------------ plog 2 --------------*/
+.color {
+    color: #FFCB0F;
+}
+
+#page .right h2 {
+    color: #FFCB0F;
+}
+
+#page .right {
+    line-height: 1.3;
+}
+
+#page .right button {
+    background-color: #FFCB0F;
+    border: none;
+    padding: 5px 25px;
+    border-radius: 10px;
+}
+
+/*------------ Blog 2 --------------*/
+.blog {
+    background: url('../Images/bg4.jpg') no-repeat center center/cover fixed;
+    height: fit-content;
+}
+
+.blog .my-card {
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 20px;
+    padding-top: 40px !important;
+}
+
+.blog .my-card span,
+.blog .my-card p {
+    font-size: 13px;
+    padding: 5px;
+}
+
+.icon {
+    font-size: 40px !important;
+    padding: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 45px;
+}
+
+.card {
+    width: 350px !important;
+}
+
+.card-body p {
+    font-size: 15px;
+}
+
+.card-hold {
+    position: relative;
+}
+
+.image-par {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 12px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+#portfolio {
+    background: url('../Images/bg2.jpg') center center/cover;
+    height: fit-content;
+}
+
+.ul-portfoilo li {
+    display: inline-block;
+    padding: 10px 20px;
+    list-style: none;
+    transition: all 1s;
+
+}
+
+.ul-portfoilo li:first-child {
+    background-color: rgba(35, 52, 71, .5);
+    border-radius: 20px;
+    transition: all 1s;
+}
+
+.ul-portfoilo li:hover {
+    background-color: rgba(35, 52, 71, .5);
+    border-radius: 20px;
+}
+
+#Components {
+    background: url('../Images/bg3.jpg') center center/cover;
+
+}
+
+#Components .content-par {
+    background-color: rgb(185, 184, 184);
+    padding: 20px
+}
+.arrow-icon {
+    width: 10%;
+    position: relative;
+    top: -5px;
+}
+
+.col-md-6 {
+    margin: auto !important;
+    padding-top: 20px;
+}
+
+.submit {
+    background-color: gray !important;
+}
+
+.banner {
+    height: 40px;
+    background-color: gray;
+    width: 100%;
+}
+
+#footer {
+    background: url('../Images/bg2.jpg') center center/cover;
+    height: fit-content;
+}
+#final-footer {
+    height: 50px;
+}
+#final-footer .final-footer-text  {
+} 
